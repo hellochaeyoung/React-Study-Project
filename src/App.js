@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import Radio_compo from "./radioCompo";
 import SampleComponent from "./SampleComponent";
+import SampleRouter from "./sampleRouter";
 import SampleUseContext from "./sampleUseContext";
 import SampleUseContextTwo from "./sampleUseContextTwo";
 import SampleUseMemo from "./sampleUseMemo";
@@ -121,6 +122,8 @@ function App() {
       <SampleUseContext />
 
       <SampleUseContextTwo />
+
+      <SampleRouter />
       
     </div>
   );
