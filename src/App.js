@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import Radio_compo from "./radioCompo";
 import SampleComponent from "./SampleComponent";
+import SampleUseContext from "./sampleUseContext";
 import SampleUseMemo from "./sampleUseMemo";
 import Select_compo from "./selectCompo";
 import UseEffect from "./useeffect";
@@ -115,6 +116,8 @@ function App() {
       <SampleComponent />
 
       <SampleUseMemo />
+
+      <SampleUseContext />
       
     </div>
   );
