@@ -1,7 +1,9 @@
 import React, { useState } from "react"
 import Radio_compo from "./radioCompo";
+import SampleAxios from "./sampleAxios";
 import SampleComponent from "./SampleComponent";
 import SampleRouter from "./sampleRouter";
+import SampleSessionAndCookie from "./sampleSessionAndCookie";
 import SampleUseContext from "./sampleUseContext";
 import SampleUseContextTwo from "./sampleUseContextTwo";
 import SampleUseMemo from "./sampleUseMemo";
@@ -124,6 +126,10 @@ function App() {
       <SampleUseContextTwo />
 
       <SampleRouter />
+
+      <SampleSessionAndCookie />
+
+      <SampleAxios />
       
     </div>
   );
